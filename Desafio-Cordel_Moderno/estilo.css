@@ -1,0 +1,78 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+ 
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-color:black ;
+    color: white;
+    font-family: 'Passion One', cursiva, sans-serif;
+    text-align: center;
+    padding-top: 10vh;
+}
+header>h1{
+    font-size: 3.5em;
+    font-variant:small-caps ;
+}
+header>p{
+    padding-bottom: 10vh;
+    font-size: 1.5em;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    box-shadow: inset 0px 0px 40px;
+    padding: 10vh 0px 10vh 30px;
+}
+section>p{
+    font-family: 'Sriracha', cursive, serif;
+    white-space: pre-line;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 45px;
+}
+/*Área para configurar imagens de fundo*/
+.florfundo{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.livrofundo{
+    background-image: url('imagens/background002.jpg'); 
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.florfundo>p, .livrofundo>p{
+    background-color: rgba(0, 0, 0, 0.425);
+    display: inline-block;
+    padding: 5px;
+    color:white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
+}
+
