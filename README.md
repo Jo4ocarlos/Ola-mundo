@@ -1,2 +1,3 @@
 # Olá, Mundo!
- Primeiro Repositório
+ Primeiro Reposi
+Desafios do Curso em Vídeo
